@@ -1,0 +1,287 @@
+﻿++Solution 'Bulletin' ‎(3 of 3 projects)
+i:{00000000-0000-0000-0000-000000000000}:Bulletin.sln
+++Bulletin.iOS
+i:{00000000-0000-0000-0000-000000000000}:Bulletin.iOS
+++Properties
+i:{1c2e25b9-0daa-428d-af73-b6ae9767bf2c}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.ios\properties\
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.android\properties\
+++References
+i:{1c2e25b9-0daa-428d-af73-b6ae9767bf2c}:
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:
+++Renderers
+i:{1c2e25b9-0daa-428d-af73-b6ae9767bf2c}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.ios\renderers\
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.android\renderers\
+++HoursProgressViewRenderer.cs
+i:{1c2e25b9-0daa-428d-af73-b6ae9767bf2c}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.ios\renderers\hoursprogressviewrenderer.cs
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.android\renderers\hoursprogressviewrenderer.cs
+++Asset Catalogs
+i:{1c2e25b9-0daa-428d-af73-b6ae9767bf2c}:
+++Native References
+i:{1c2e25b9-0daa-428d-af73-b6ae9767bf2c}:
+++Resources
+i:{1c2e25b9-0daa-428d-af73-b6ae9767bf2c}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.ios\resources\
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.android\resources\
+++icon_about.png
+i:{1c2e25b9-0daa-428d-af73-b6ae9767bf2c}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.ios\resources\icon_about.png
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.android\resources\drawable\icon_about.png
+++icon_about@2x.png
+i:{1c2e25b9-0daa-428d-af73-b6ae9767bf2c}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.ios\resources\icon_about@2x.png
+++icon_about@3x.png
+i:{1c2e25b9-0daa-428d-af73-b6ae9767bf2c}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.ios\resources\icon_about@3x.png
+++icon_feed.png
+i:{1c2e25b9-0daa-428d-af73-b6ae9767bf2c}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.ios\resources\icon_feed.png
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.android\resources\drawable\icon_feed.png
+++icon_feed@2x.png
+i:{1c2e25b9-0daa-428d-af73-b6ae9767bf2c}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.ios\resources\icon_feed@2x.png
+++icon_feed@3x.png
+i:{1c2e25b9-0daa-428d-af73-b6ae9767bf2c}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.ios\resources\icon_feed@3x.png
+++LaunchScreen.storyboard
+i:{1c2e25b9-0daa-428d-af73-b6ae9767bf2c}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.ios\resources\launchscreen.storyboard
+++xamarin_logo.png
+i:{1c2e25b9-0daa-428d-af73-b6ae9767bf2c}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.ios\resources\xamarin_logo.png
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.android\resources\drawable\xamarin_logo.png
+++xamarin_logo@2x.png
+i:{1c2e25b9-0daa-428d-af73-b6ae9767bf2c}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.ios\resources\xamarin_logo@2x.png
+++xamarin_logo@3x.png
+i:{1c2e25b9-0daa-428d-af73-b6ae9767bf2c}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.ios\resources\xamarin_logo@3x.png
+++AppDelegate.cs
+i:{1c2e25b9-0daa-428d-af73-b6ae9767bf2c}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.ios\appdelegate.cs
+++Entitlements.plist
+i:{1c2e25b9-0daa-428d-af73-b6ae9767bf2c}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.ios\entitlements.plist
+++Info.plist
+i:{1c2e25b9-0daa-428d-af73-b6ae9767bf2c}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.ios\info.plist
+++Main.cs
+i:{1c2e25b9-0daa-428d-af73-b6ae9767bf2c}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.ios\main.cs
+++AssemblyInfo.cs
+i:{1c2e25b9-0daa-428d-af73-b6ae9767bf2c}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.ios\properties\assemblyinfo.cs
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.android\properties\assemblyinfo.cs
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\assemblyinfo.cs
+++Bulletin
+i:{1c2e25b9-0daa-428d-af73-b6ae9767bf2c}:
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:
+i:{00000000-0000-0000-0000-000000000000}:Bulletin
+++System
+i:{1c2e25b9-0daa-428d-af73-b6ae9767bf2c}:
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:
+++System.Core
+i:{1c2e25b9-0daa-428d-af73-b6ae9767bf2c}:
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:
+++System.Numerics
+i:{1c2e25b9-0daa-428d-af73-b6ae9767bf2c}:
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:
+++System.Numerics.Vectors
+i:{1c2e25b9-0daa-428d-af73-b6ae9767bf2c}:
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:
+++System.Xml
+i:{1c2e25b9-0daa-428d-af73-b6ae9767bf2c}:
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:
+++Xamarin.Essentials
+i:{1c2e25b9-0daa-428d-af73-b6ae9767bf2c}:
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:
+++Xamarin.Forms
+i:{1c2e25b9-0daa-428d-af73-b6ae9767bf2c}:
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:
+++Xamarin.iOS
+i:{1c2e25b9-0daa-428d-af73-b6ae9767bf2c}:
+++Assets
+i:{1c2e25b9-0daa-428d-af73-b6ae9767bf2c}:
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.android\assets\
+++Bulletin.Android
+i:{00000000-0000-0000-0000-000000000000}:Bulletin.Android
+++MainActivity.cs
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.android\mainactivity.cs
+++AndroidManifest.xml
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.android\properties\androidmanifest.xml
+++Mono.Android
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:
+++System.Xml.Linq
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:
+++AboutAssets.txt
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.android\assets\aboutassets.txt
+++drawable
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.android\resources\drawable\
+++mipmap-anydpi-v26
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.android\resources\mipmap-anydpi-v26\
+++mipmap-hdpi
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.android\resources\mipmap-hdpi\
+++mipmap-mdpi
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.android\resources\mipmap-mdpi\
+++mipmap-xhdpi
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.android\resources\mipmap-xhdpi\
+++mipmap-xxhdpi
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.android\resources\mipmap-xxhdpi\
+++mipmap-xxxhdpi
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.android\resources\mipmap-xxxhdpi\
+++values
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.android\resources\values\
+++AboutResources.txt
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.android\resources\aboutresources.txt
+++Resource.designer.cs
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.android\resources\resource.designer.cs
+++icon.xml
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.android\resources\mipmap-anydpi-v26\icon.xml
+++icon_round.xml
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.android\resources\mipmap-anydpi-v26\icon_round.xml
+++icon.png
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.android\resources\mipmap-hdpi\icon.png
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.android\resources\mipmap-mdpi\icon.png
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.android\resources\mipmap-xhdpi\icon.png
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.android\resources\mipmap-xxhdpi\icon.png
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.android\resources\mipmap-xxxhdpi\icon.png
+++launcher_foreground.png
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.android\resources\mipmap-hdpi\launcher_foreground.png
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.android\resources\mipmap-mdpi\launcher_foreground.png
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.android\resources\mipmap-xhdpi\launcher_foreground.png
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.android\resources\mipmap-xxhdpi\launcher_foreground.png
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.android\resources\mipmap-xxxhdpi\launcher_foreground.png
+++colors.xml
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.android\resources\values\colors.xml
+++styles.xml
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.android\resources\values\styles.xml
+++Dependencies
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:>240
+++Models
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\models\
+++Item.cs
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\models\item.cs
+++PayStatement.cs
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\models\paystatement.cs
+++WorkItem.cs
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\models\workitem.cs
+++PageModels
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\pagemodels\
+++Base
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\pagemodels\base\
+++ExtendedBindableObject.cs
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\pagemodels\base\extendedbindableobject.cs
+++PageModelBase.cs
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\pagemodels\base\pagemodelbase.cs
+++PageModelLocator.cs
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\pagemodels\base\pagemodellocator.cs
+++DashboardPageModel.cs
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\pagemodels\dashboardpagemodel.cs
+++LoginPageModel.cs
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\pagemodels\loginpagemodel.cs
+++ProfilePageModel.cs
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\pagemodels\profilepagemodel.cs
+++SettingsPageModel.cs
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\pagemodels\settingspagemodel.cs
+++SummaryPageModel.cs
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\pagemodels\summarypagemodel.cs
+++TimeClockPageModel.cs
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\pagemodels\timeclockpagemodel.cs
+++Pages
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\pages\
+++DashboardPage.xaml
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\pages\dashboardpage.xaml
+++LoginPage.xaml
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\pages\loginpage.xaml
+++ProfilePage.xaml
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\pages\profilepage.xaml
+++SettingsPage.xaml
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\pages\settingspage.xaml
+++SummaryPage.xaml
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\pages\summarypage.xaml
+++SummaryPage.xaml.cs
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\pages\summarypage.xaml.cs
+++TimeClockPage.xaml
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\pages\timeclockpage.xaml
+++TimeClockPage.xaml.cs
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\pages\timeclockpage.xaml.cs
+++Services
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\services\
+++Account
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\services\account\
+++IAccountService.cs
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\services\account\iaccountservice.cs
+++MockAccountService.cs
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\services\account\mockaccountservice.cs
+++Navigation
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\services\navigation\
+++INavigationService.cs
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\services\navigation\inavigationservice.cs
+++NavigationService.cs
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\services\navigation\navigationservice.cs
+++Statement
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\services\statement\
+++IStatementService.cs
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\services\statement\istatementservice.cs
+++MockStatementService.cs
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\services\statement\mockstatementservice.cs
+++Work
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\services\work\
+++IWorkService.cs
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\services\work\iworkservice.cs
+++MockWorkService.cs
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\services\work\mockworkservice.cs
+++IDataStore.cs
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\services\idatastore.cs
+++MockDataStore.cs
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\services\mockdatastore.cs
+++TinyIoC
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\tinyioc\
+++TinyIoC.cs
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\tinyioc\tinyioc.cs
+++ViewModels
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\viewmodels\
+++Buttons
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\viewmodels\buttons\
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\views\buttons\
+++ButtonModel.cs
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\viewmodels\buttons\buttonmodel.cs
+++PayStatementViewModel.cs
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\viewmodels\paystatementviewmodel.cs
+++Views
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\views\
+++BindableButton.xaml
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\views\buttons\bindablebutton.xaml
+++BindableButton.xaml.cs
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\views\buttons\bindablebutton.xaml.cs
+++Labels
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\views\labels\
+++TitleLabel.xaml
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\views\labels\titlelabel.xaml
+++TitleLabel.xaml.cs
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\views\labels\titlelabel.xaml.cs
+++HoursProgressView.xaml
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\views\hoursprogressview.xaml
+++HoursProgressView.xaml.cs
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\views\hoursprogressview.xaml.cs
+++PayStatementView.xaml
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\views\paystatementview.xaml
+++PayStatementView.xaml.cs
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\views\paystatementview.xaml.cs
+++StatementEarningsView.xaml
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\views\statementearningsview.xaml
+++StatementEarningsView.xaml.cs
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\views\statementearningsview.xaml.cs
+++App.xaml
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\app.xaml
+++App.xaml.cs
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\app.xaml.cs
+++AppShell.xaml
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\appshell.xaml
+++AppShell.xaml.cs
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\appshell.xaml.cs
+++GettingStarted.txt
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\gettingstarted.txt
+++Packages
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:packages
+++DashboardPage.xaml.cs
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\pages\dashboardpage.xaml.cs
+++LoginPage.xaml.cs
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\pages\loginpage.xaml.cs
+++ProfilePage.xaml.cs
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\pages\profilepage.xaml.cs
+++SettingsPage.xaml.cs
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin\pages\settingspage.xaml.cs
+++NETStandard.Library (2.0.3)
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:>243
+++Xamarin.Essentials (1.7.0)
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:>242
+++Xamarin.Forms (5.0.0.2196)
+i:{180529af-9e95-4a3d-a0fc-7a0a8b7eee7a}:>244
+++Xamarin.Firebase.Analytics
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:
+++google-services.json
+i:{e8797380-9563-4dfe-b967-59afa8c09074}:c:\users\matt\desktop\school\spring 2022\software engineering\bulletin\bulletin\bulletin.android\google-services.json

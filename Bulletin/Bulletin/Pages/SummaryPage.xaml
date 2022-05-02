@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bulletin.Pages.SummaryPage"
+             xmlns:views="clr-namespace:Bulletin.Views"
+             xmlns:labels="clr-namespace:Bulletin.Views.Labels">
+    <ContentPage.Content>
+        <StackLayout Margin="10">
+           <!-- comment-->
+            <Frame>
+                <StackLayout>
+                    <labels:TitleLabel Text="Current Pay Period Estimate"/>
+                    <Label Text="{Binding CurrentPayDateRange}"/>
+                    <Label Text="{Binding CurrentPeriodEarnings, StringFormat='{}{0:C}'}" />
+                </StackLayout>
+            </Frame>
+            <Frame>
+                <StackLayout>
+                    <labels:TitleLabel Text="Payment Date for this Period"/>
+                    <Label Text="{Binding CurrentPeriodPayDate, StringFormat='{}{0:MMMM d, yyyy}'}"/>
+                </StackLayout>
+            </Frame>
+            <Frame>
+                <StackLayout>
+                    <labels:TitleLabel Text="Pay Statements"/>
+                    <ListView ItemsSource="{Binding Statements}">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <StackLayout Orientation="Horizontal">
+                                        <views:PayStatementView />
+                                    </StackLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

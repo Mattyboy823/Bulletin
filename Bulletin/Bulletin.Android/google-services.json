@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1021146193780",
+    "project_id": "bulletin-596fa",
+    "storage_bucket": "bulletin-596fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021146193780:android:9f812bfb7f490b701c1621",
+        "android_client_info": {
+          "package_name": "com.nerdyboys.bulletin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1021146193780-lh65lhgrddchfqr8desadq9f383sl505.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAviLnjuXE-MingK-uv72tr4H3QvX6LLyA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1021146193780-lh65lhgrddchfqr8desadq9f383sl505.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Login"
+             x:Class="Bulletin.Pages.LoginPage"
+             xmlns:views="clr-namespace:Bulletin.Views">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image WidthRequest="200" Aspect="AspectFit" HorizontalOptions="Center" Margin="20" Source="{Binding Icon}"/>
+
+            <views:LoginOptionView BindingContext="{Binding LoginEmailViewModel}"/>
+            <views:LoginOptionView BindingContext="{Binding LoginPhoneViewModel}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

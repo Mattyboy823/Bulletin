@@ -7,5 +7,6 @@ namespace Bulletin.PageModels
 {
     public class SettingsPageModel : PageModelBase
     {
+
     }
 }

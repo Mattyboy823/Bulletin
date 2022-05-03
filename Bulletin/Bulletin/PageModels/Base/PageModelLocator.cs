@@ -8,6 +8,8 @@ using Bulletin.Pages;
 using Bulletin.Services.Account;
 using Bulletin.Services.Statement;
 using Bulletin.Services.Work;
+using Bulletin.Services;
+using Bulletin.Models;
 
 namespace Bulletin.PageModels.Base
 {
@@ -36,6 +38,8 @@ namespace Bulletin.PageModels.Base
             container.Register<IAccountService>(DependencyService.Get<IAccountService>());
             container.Register<IStatementService, MockStatementService>();
             container.Register<IWorkService, MockWorkService>();
+            //container.Register(DependencyService.Get<IRepository<WorkItem>>());
+            container.Register(DependencyService.Get<IRepository<TestData>>());
         }
 
         public static T Resolve<T>() where T : class

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Bulletin.Models;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,6 +20,11 @@ namespace Bulletin.Services.Account
                 return Task.FromResult(false);
             }
             return Task.Delay(1000).ContinueWith((task) => true);
+        }
+
+        Task<AuthenticatedUser> IAccountService.GetUserAsync()
+        {
+            throw new NotImplementedException();
         }
 
         Task<bool> IAccountService.SendOtpCodeAsync(string phoneNumber)

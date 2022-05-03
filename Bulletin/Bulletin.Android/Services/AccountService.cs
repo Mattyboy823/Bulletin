@@ -4,10 +4,13 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using Bulletin.Droid.ServiceListeners;
 using Bulletin.Droid.Services;
+using Bulletin.Models;
 using Bulletin.Services.Account;
 using Firebase;
 using Firebase.Auth;
+using Firebase.Firestore;
 using Java.Util.Concurrent;
 using System;
 using System.Collections.Generic;
@@ -86,6 +89,14 @@ namespace Bulletin.Droid.Services
                 return tcs.Task;
             }
             return Task.FromResult(false);
+        }
+
+        public Task<AuthenticatedUser> GetUserAsync()
+        {
+            var tcs = new TaskCompletionSource<AuthenticatedUser>();
+
+            FirebaseFirestore.Instance.Collection("users").Document(FirebaseAuth.Instance.CurrentUser.Uid).Get().AddOnCompleteListener(new OnCompleteListener(tcs));
+            return tcs.Task;
         }
     }
 }

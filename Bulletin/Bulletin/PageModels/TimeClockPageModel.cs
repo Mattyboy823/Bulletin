@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using System.Timers;
 using Bulletin.Models;
 using Bulletin.PageModels.Base;
+using Bulletin.Services;
 using Bulletin.Services.Account;
 using Bulletin.Services.Work;
 using Bulletin.ViewModels.Buttons;
@@ -26,6 +27,12 @@ namespace Bulletin.PageModels
         {
             get => runningTotal;
             set => SetProperty(ref runningTotal, value);
+        }
+        TimeSpan dailyTotal;
+        public TimeSpan DailyTotal
+        {
+            get => dailyTotal;
+            set => SetProperty(ref dailyTotal, value);
         }
 
         DateTime currentStartTime;
@@ -80,6 +87,23 @@ namespace Bulletin.PageModels
             RunningTotal = new TimeSpan();
             hourlyRate = await _accountService.GetCurrentPayRateAsync();
             WorkItems = await workService1.GetTodaysWorkAsync();
+            var item = await PageModelLocator.Resolve<IRepository<TestData>>().Get("l7doJzsfXkfHQIOJJl0X");
+            if (item != null)
+            {
+
+            }
+            /*var result = await PageModelLocator.Resolve<IRepository<TestData>>().Save(new TestData
+            {
+                Age = 30,
+                Amount = 100.0,
+                Flag = false,
+                Name = "Bill Joel",
+                SomeDate = DateTime.Now,
+            });
+            if (result)
+            {
+
+            }*/
             await base.InitializeAsync(navigationData);
         }
 
@@ -89,6 +113,7 @@ namespace Bulletin.PageModels
             {
                 timer.Enabled = false;
                 TodaysEarnings += hourlyRate * RunningTotal.TotalHours;
+                DailyTotal += RunningTotal;
                 RunningTotal = TimeSpan.Zero;
                 ClockInOutButtonModel.Text = "Clock In";
                 var item = new WorkItem

@@ -6,6 +6,6 @@
         Define global resources and styles here, that apply to all pages in your app.
     -->
     <Application.Resources>
-        <Color x:Key="PrimaryHeaderColor">#01A9DB</Color>
+        <Color x:Key="PrimaryHeaderColor">#808080</Color>
     </Application.Resources>
 </Application>

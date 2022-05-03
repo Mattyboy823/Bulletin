@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Matt\\Desktop\\School\\Spring 2022\\Software engineering\\Bulletin\\Bulletin\\Bulletin.Android\\Bulletin.Android.csproj": {}
+    "C:\\Users\\Matt\\Desktop\\Bulletin\\Bulletin\\Bulletin.Android\\Bulletin.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Matt\\Desktop\\School\\Spring 2022\\Software engineering\\Bulletin\\Bulletin\\Bulletin.Android\\Bulletin.Android.csproj": {
+    "C:\\Users\\Matt\\Desktop\\Bulletin\\Bulletin\\Bulletin.Android\\Bulletin.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Matt\\Desktop\\School\\Spring 2022\\Software engineering\\Bulletin\\Bulletin\\Bulletin.Android\\Bulletin.Android.csproj",
+        "projectUniqueName": "C:\\Users\\Matt\\Desktop\\Bulletin\\Bulletin\\Bulletin.Android\\Bulletin.Android.csproj",
         "projectName": "Bulletin.Android",
-        "projectPath": "C:\\Users\\Matt\\Desktop\\School\\Spring 2022\\Software engineering\\Bulletin\\Bulletin\\Bulletin.Android\\Bulletin.Android.csproj",
+        "projectPath": "C:\\Users\\Matt\\Desktop\\Bulletin\\Bulletin\\Bulletin.Android\\Bulletin.Android.csproj",
         "packagesPath": "C:\\Users\\Matt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Matt\\Desktop\\School\\Spring 2022\\Software engineering\\Bulletin\\Bulletin\\Bulletin.Android\\obj\\",
+        "outputPath": "C:\\Users\\Matt\\Desktop\\Bulletin\\Bulletin\\Bulletin.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -28,8 +28,8 @@
         "frameworks": {
           "monoandroid12.0": {
             "projectReferences": {
-              "C:\\Users\\Matt\\Desktop\\School\\Spring 2022\\Software engineering\\Bulletin\\Bulletin\\Bulletin\\Bulletin.csproj": {
-                "projectPath": "C:\\Users\\Matt\\Desktop\\School\\Spring 2022\\Software engineering\\Bulletin\\Bulletin\\Bulletin\\Bulletin.csproj"
+              "C:\\Users\\Matt\\Desktop\\Bulletin\\Bulletin\\Bulletin\\Bulletin.csproj": {
+                "projectPath": "C:\\Users\\Matt\\Desktop\\Bulletin\\Bulletin\\Bulletin\\Bulletin.csproj"
               }
             }
           }
@@ -38,6 +38,10 @@
       "frameworks": {
         "monoandroid12.0": {
           "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.7.0, )"
@@ -50,6 +54,10 @@
               "target": "Package",
               "version": "[121.0.1.6, )"
             },
+            "Xamarin.Firebase.Firestore": {
+              "target": "Package",
+              "version": "[123.0.3.5, )"
+            },
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[5.0.0.2196, )"
@@ -58,14 +66,14 @@
         }
       }
     },
-    "C:\\Users\\Matt\\Desktop\\School\\Spring 2022\\Software engineering\\Bulletin\\Bulletin\\Bulletin\\Bulletin.csproj": {
+    "C:\\Users\\Matt\\Desktop\\Bulletin\\Bulletin\\Bulletin\\Bulletin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Matt\\Desktop\\School\\Spring 2022\\Software engineering\\Bulletin\\Bulletin\\Bulletin\\Bulletin.csproj",
+        "projectUniqueName": "C:\\Users\\Matt\\Desktop\\Bulletin\\Bulletin\\Bulletin\\Bulletin.csproj",
         "projectName": "Bulletin",
-        "projectPath": "C:\\Users\\Matt\\Desktop\\School\\Spring 2022\\Software engineering\\Bulletin\\Bulletin\\Bulletin\\Bulletin.csproj",
+        "projectPath": "C:\\Users\\Matt\\Desktop\\Bulletin\\Bulletin\\Bulletin\\Bulletin.csproj",
         "packagesPath": "C:\\Users\\Matt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Matt\\Desktop\\School\\Spring 2022\\Software engineering\\Bulletin\\Bulletin\\Bulletin\\obj\\",
+        "outputPath": "C:\\Users\\Matt\\Desktop\\Bulletin\\Bulletin\\Bulletin\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Matt\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -107,6 +115,10 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[5.0.0.2196, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
             }
           },
           "imports": [

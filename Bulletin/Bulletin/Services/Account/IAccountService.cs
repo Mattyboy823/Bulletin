@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Bulletin.Models;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,5 +12,7 @@ namespace Bulletin.Services.Account
         Task<bool> SendOtpCodeAsync(string phoneNumber);
         Task<double> GetCurrentPayRateAsync();
         Task<bool> VerifyOtpCodeAsync(string code);
+
+        Task<AuthenticatedUser> GetUserAsync();
     }
 }

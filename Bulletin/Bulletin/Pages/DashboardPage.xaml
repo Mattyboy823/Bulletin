@@ -16,12 +16,7 @@
                 <pages:SummaryPage BindingContext="{Binding SummaryPageModel}"/>
             </x:Arguments>
         </NavigationPage>
-        <NavigationPage Title="Profile">
-            <x:Arguments>
-                <pages:ProfilePage BindingContext="{Binding ProfilePageModel}"/>
-            </x:Arguments>
-        </NavigationPage>
-        <NavigationPage Title="Settings">
+        <NavigationPage Title="Staff">
             <x:Arguments>
                 <pages:SettingsPage BindingContext="{Binding SettingsPageModel}"/>
             </x:Arguments>

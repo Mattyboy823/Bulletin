@@ -3,37 +3,27 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Bulletin.Pages.SummaryPage"
              xmlns:views="clr-namespace:Bulletin.Views"
-             xmlns:labels="clr-namespace:Bulletin.Views.Labels">
+             xmlns:labels="clr-namespace:Bulletin.Views.Labels"
+             NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
         <StackLayout Margin="10">
            <!-- comment-->
             <Frame>
                 <StackLayout>
-                    <labels:TitleLabel Text="Current Pay Period Estimate"/>
-                    <Label Text="{Binding CurrentPayDateRange}"/>
-                    <Label Text="{Binding CurrentPeriodEarnings, StringFormat='{}{0:C}'}" />
+                    <labels:TitleLabel Text="Total Hours Worked this Pay Period"/>
+                    <Label Text="{Binding CurrentPeriodHours, StringFormat='{}{0:h\\:mm\\:ss}'}" HorizontalOptions="CenterAndExpand" FontSize="Large"/>
                 </StackLayout>
             </Frame>
             <Frame>
                 <StackLayout>
                     <labels:TitleLabel Text="Payment Date for this Period"/>
-                    <Label Text="{Binding CurrentPeriodPayDate, StringFormat='{}{0:MMMM d, yyyy}'}"/>
+                    <Label Text="{Binding CurrentPeriodPayDate, StringFormat='{}{0:MMMM d, yyyy}'}" HorizontalOptions="CenterAndExpand" FontSize="Large"/>
                 </StackLayout>
             </Frame>
             <Frame>
                 <StackLayout>
-                    <labels:TitleLabel Text="Pay Statements"/>
-                    <ListView ItemsSource="{Binding Statements}">
-                        <ListView.ItemTemplate>
-                            <DataTemplate>
-                                <ViewCell>
-                                    <StackLayout Orientation="Horizontal">
-                                        <views:PayStatementView />
-                                    </StackLayout>
-                                </ViewCell>
-                            </DataTemplate>
-                        </ListView.ItemTemplate>
-                    </ListView>
+                    <labels:TitleLabel Text="Next Work Day"/>
+                    <Label Text="{Binding NextWorkDay}" HorizontalOptions="CenterAndExpand" FontSize="Large"/>
                 </StackLayout>
             </Frame>
         </StackLayout>

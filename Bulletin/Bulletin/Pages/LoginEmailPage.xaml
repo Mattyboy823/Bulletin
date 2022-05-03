@@ -4,8 +4,8 @@
              x:Class="Bulletin.Pages.LoginEmailPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="LoginPage"
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Welcome to Bulletin" FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Label Text="LoginPage" HorizontalOptions="CenterAndExpand" />
             <Entry Placeholder="username" Text="{Binding Username}"/>
             <Entry Placeholder="password" Text="{Binding Password}" IsPassword="True"/>
             <Button Text="Sign In" Command="{Binding SignInCommand}"/>

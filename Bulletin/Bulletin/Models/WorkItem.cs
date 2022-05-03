@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Bulletin.Services;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Bulletin.Models
 {
-    public class WorkItem
+    public class WorkItem : IIdentifiable
     {
         public DateTime Start { get; set; }
         public DateTime End { get; set; }
@@ -12,5 +13,7 @@ namespace Bulletin.Models
         { 
             get => End - Start;
         }
+
+        public string Id {get; set; }
     }
 }

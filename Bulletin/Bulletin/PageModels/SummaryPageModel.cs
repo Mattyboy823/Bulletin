@@ -24,10 +24,22 @@ namespace Bulletin.PageModels
             get => currentPeriodEarnings;
             set => SetProperty(ref currentPeriodEarnings, value);
         }
+        private TimeSpan currentPeriodHours;
+        public TimeSpan CurrentPeriodHours
+        {
+            get => currentPeriodHours;
+            set => SetProperty(ref currentPeriodHours, value);
+        }
         private DateTime currentPeriodPayDate;
         public DateTime CurrentPeriodPayDate {
             get => currentPeriodPayDate;
             set => SetProperty(ref currentPeriodPayDate, value);
+        }
+        private string nextWorkDay;
+        public string NextWorkDay
+        {
+            get => nextWorkDay;
+            set => SetProperty(ref nextWorkDay, value);
         }
         private List<PayStatementViewModel> statements1;
         public List<PayStatementViewModel> Statements {
@@ -77,6 +89,7 @@ namespace Bulletin.PageModels
             foreach(var item in currentPeriodItems)
             {
                 CurrentPeriodEarnings += item.Total.TotalHours * hourlyRate;
+                CurrentPeriodHours = item.Total;
             }
             await base.InitializeAsync(navigationData);
         }

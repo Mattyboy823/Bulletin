@@ -30,6 +30,7 @@ namespace Bulletin.Services.Statement
                        }
                    }
 
+
                }
            };
         }

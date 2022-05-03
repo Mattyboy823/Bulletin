@@ -1,12 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Bulletin.Pages.SettingsPage">
+             x:Class="Bulletin.Pages.SettingsPage"
+             NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Margin="20,35,20,20">
+            <Entry x:Name="id" Placeholder="Enter Employee id" />
+            <Entry x:Name="fNameEntry" Placeholder="Enter first name" />
+            <Entry x:Name="lNameEntry" Placeholder="Enter last name" />
+            <Entry x:Name="HrsWorked" Placeholder="Enter Hours worked" />
+            <Label Text="Is at Work?"/>
+            <CheckBox x:Name="isIn"/>
+            <Button Text="Add Employee" Clicked="AddButton"/>
+            <Button Text="Update Employees" Clicked="UpdateButton"/>
+            <Button Text="Delete Employee" Clicked="DeleteButton"/>
+            <Button Text="Employees Working" Clicked="EmpWorkingButton"/>
+            <Button Text="Employees Not Working" Clicked="EmpNotWorkingButton"/>
+            <CollectionView x:Name="collectionView" SelectionMode="Single" SelectionChanged="collectionView_SelectionChanged">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="{Binding Id}" FontSize="Medium" />
+                            <Label Text="{Binding FName}" FontSize="Medium" />
+                            <Label Text="{Binding LName}" FontSize="Medium" />
+                            <Label Text="{Binding HrsWorked}" FontSize="Medium" />
+                            <Label Text="{Binding IsIn}" TextColor="DarkRed" FontSize="Medium" />
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
